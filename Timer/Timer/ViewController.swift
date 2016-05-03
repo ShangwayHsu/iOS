@@ -14,18 +14,22 @@ class ViewController: UIViewController {
     var time = 0.00
     var timer = NSTimer()
     
+    //time display
     @IBOutlet var timerLabel: UILabel!
     
+    //start function
     @IBAction func startButton(sender: AnyObject) {
         
         timer = NSTimer.scheduledTimerWithTimeInterval(0.01, target: self, selector: Selector("incrementTimer"), userInfo: nil, repeats: true)
 
     }
     
+    //stop function
     @IBAction func stopButton(sender: AnyObject) {
         timer.invalidate()
     }
     
+    //reset function
     @IBAction func resetButton(sender: AnyObject) {
         timer.invalidate()
         time = 0.00
@@ -38,6 +42,11 @@ class ViewController: UIViewController {
     func incrementTimer() {
         
         time += 0.01
+        
+        //make sure to only display up to miliseconds
+        time = round(100 * time) / 100
+        
+        //update label
         timerLabel.text = "\(time)"
         
     }
