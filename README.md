@@ -7,7 +7,7 @@
 
 #####    
 ###### List of apps ordered by completion date:
-###### (more details in each app's README)
+(more details in each app's README)
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**[Nov 18, 2015]** Hello World  
 
