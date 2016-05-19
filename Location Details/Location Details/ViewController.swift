@@ -56,14 +56,18 @@ class ViewController: UIViewController, CLLocationManagerDelegate {
                 if let p = placemarks?[0] {
                     
                     var subThoroughfare:String = ""
+                    var thoroughfare:String = ""
                     
                     if (p.subThoroughfare != nil) {
                         
-                        subThoroughfare = p.subThoroughfare!
+                        subThoroughfare = "\(p.subThoroughfare!)"
                         
                     }
+                    if (p.thoroughfare != nil) {
+                        thoroughfare = "\(p.thoroughfare!)"
+                    }
                     
-                    self.AddressLabel.text = "\(subThoroughfare) \(p.thoroughfare!) \n \(p.locality!) \n \(p.postalCode!) \n \(p.country!)"
+                    self.AddressLabel.text = "\(subThoroughfare) \(thoroughfare) \n \(p.locality!) \n \(p.postalCode!) \n \(p.country!)"
                     
                 }
 
