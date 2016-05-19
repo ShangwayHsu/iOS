@@ -1,6 +1,7 @@
 # Tabbed To-do List app
 # 
 **Objective:** Learn to make an application with UITableView and UITableViewDelegate.  Also learned how to use navigation bar.
+
 **Description:** To-do list app that allows user to add items and additional item notes.
 # 
 ###### Screenshots:
