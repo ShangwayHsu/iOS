@@ -1,4 +1,4 @@
-# Timer app
+# Hello World app
 # 
 **Objective:** First iOS app!
 
