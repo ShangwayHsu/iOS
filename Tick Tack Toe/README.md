@@ -1,4 +1,4 @@
-# Timer app
+# Tick Tack Toe app
 # 
 **Objective:** Learn to create more complex apps with multiple game states along with more intensive organization of UI elements and backend code. Additionally, it was good practice of using a single IBAction to control multiple buttons.
 **Description:** Just a simple tick tack toe game with replay button and game over banner.
