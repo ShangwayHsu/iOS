@@ -1,4 +1,4 @@
-# Tabbed To-do List app
+# To-do List app
 # 
 **Objective:** Learn to make an application with UITableView and UITableViewDelegate.  Also learned how to use navigation bar.
 
