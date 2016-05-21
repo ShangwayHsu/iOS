@@ -12,7 +12,7 @@
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**[Nov 18, 2015]** Hello World  
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;__[Dec 20, 2015] To-do List 1 * __ 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**[Dec 20, 2015]**** To-do List 1 * ** 
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**[Apr 26, 2016]** Guess My Number 
 
