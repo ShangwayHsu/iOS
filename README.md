@@ -1,7 +1,7 @@
 # iOS-apps
 ### 
-#####These apps are created as practice for my iOS learning.
-#####Bigger iOS projects will not be posted in this practice-app repo.
+#####These apps are created to practice certain iOS skills I've learned from courses and tutorials.
+#####Bigger iOS projects may or may-not be be posted in this practice-app repo.
    
 <br />  
 
