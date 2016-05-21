@@ -15,6 +15,7 @@
 		EDB955B21CEE4C1A00B80EC2 /* MemoryTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDB955B11CEE4C1A00B80EC2 /* MemoryTableViewController.swift */; };
 		EDB955B41CEE4E0900B80EC2 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EDB955B31CEE4E0900B80EC2 /* CoreLocation.framework */; };
 		EDB955B61CEFBE4700B80EC2 /* MemoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDB955B51CEFBE4700B80EC2 /* MemoryViewController.swift */; };
+		EDD1C52C1CEFF78B008C95A9 /* AddDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDD1C52B1CEFF78B008C95A9 /* AddDetailsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		EDB955B11CEE4C1A00B80EC2 /* MemoryTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MemoryTableViewController.swift; sourceTree = "<group>"; };
 		EDB955B31CEE4E0900B80EC2 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 		EDB955B51CEFBE4700B80EC2 /* MemoryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MemoryViewController.swift; sourceTree = "<group>"; };
+		EDD1C52B1CEFF78B008C95A9 /* AddDetailsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddDetailsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +68,7 @@
 				EDB9559D1CEE47EC00B80EC2 /* AppDelegate.swift */,
 				EDB9559F1CEE47EC00B80EC2 /* ViewController.swift */,
 				EDB955A11CEE47EC00B80EC2 /* Main.storyboard */,
+				EDD1C52B1CEFF78B008C95A9 /* AddDetailsView.swift */,
 				EDB955B51CEFBE4700B80EC2 /* MemoryViewController.swift */,
 				EDB955A41CEE47EC00B80EC2 /* Assets.xcassets */,
 				EDB955A61CEE47EC00B80EC2 /* LaunchScreen.storyboard */,
@@ -146,6 +149,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EDD1C52C1CEFF78B008C95A9 /* AddDetailsView.swift in Sources */,
 				EDB955B21CEE4C1A00B80EC2 /* MemoryTableViewController.swift in Sources */,
 				EDB955B61CEFBE4700B80EC2 /* MemoryViewController.swift in Sources */,
 				EDB955A01CEE47EC00B80EC2 /* ViewController.swift in Sources */,
