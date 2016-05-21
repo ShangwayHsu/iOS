@@ -8,11 +8,19 @@
 
 import UIKit
 import MapKit
-class MemoryTableViewController: UITableViewController {
 
+var places = [Dictionary<String,String>()]
+var cellNum = -1
+
+class MemoryTableViewController: UITableViewController {
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        
+        if places.count == 1 && places[0] == Dictionary<String,String>() {
+            places.removeAtIndex(0)
+            places.append(["title": "Example Place", "description":"Example Description", "lat":"25.0330", "long":"121.5654"])
+        }
         // Uncomment the following line to preserve selection between presentations
         // self.clearsSelectionOnViewWillAppear = false
 
@@ -34,15 +42,25 @@ class MemoryTableViewController: UITableViewController {
 
     override func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         // #warning Incomplete implementation, return the number of rows
-        return 3
+        return places.count
     }
 
 
     override func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCellWithIdentifier("Cell", forIndexPath: indexPath) as! UITableViewCell
+        let cell = tableView.dequeueReusableCellWithIdentifier("Cell", forIndexPath: indexPath) 
         
-        cell.textLabel?.text = "test"
+        cell.textLabel?.text = places[indexPath.row]["title"]
+
         return cell
+    }
+    
+    override func tableView(tableView: UITableView, willSelectRowAtIndexPath indexPath: NSIndexPath) -> NSIndexPath? {
+        cellNum = indexPath.row
+        return indexPath
+    }
+    
+    override func viewWillAppear(animated: Bool) {
+        tableView.reloadData()
     }
 
     /*

@@ -14,8 +14,15 @@ class ViewController: UIViewController, CLLocationManagerDelegate {
     
     @IBOutlet var mapViewController: MKMapView!
     
+    @IBOutlet var bottomBar: UIToolbar!
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        //initially hide the toolbar
+        
+        bottomBar.hidden = true
+       
+ 
         
         manager = CLLocationManager()
         manager.delegate = self
@@ -67,11 +74,17 @@ class ViewController: UIViewController, CLLocationManagerDelegate {
                 address = "Added \(format.stringFromDate(NSDate()))."
             }
             
+            //store in place array
+            places.append(["title":address, "description":" ", "lat":"\(pinCoord.latitude)", "long":"\(pinCoord.longitude)"])
+            
             //update annotation
             let annotation = MKPointAnnotation()
             annotation.coordinate = pinCoord
             annotation.title = "\(address)"
             self.mapViewController.addAnnotation(annotation)
+            
+            self.bottomBar.hidden = false
+            
 
         })
             
