@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Music_Player" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" image="beethoven_pic.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="PP8-ei-3Lm">
+                                <rect key="frame" x="15" y="49" width="290" height="333"/>
+                            </imageView>
+                            <slider opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="3MB-Id-C8n">
+                                <rect key="frame" x="18" y="395" width="284" height="31"/>
+                                <connections>
+                                    <action selector="skip:" destination="BYZ-38-t0r" eventType="valueChanged" id="CtD-Kb-vRy"/>
+                                </connections>
+                            </slider>
+                            <toolbar opaque="NO" clearsContextBeforeDrawing="NO" tag="5" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="YdC-ty-9Jc">
+                                <rect key="frame" x="0.0" y="524" width="320" height="44"/>
+                                <items>
+                                    <barButtonItem style="plain" systemItem="flexibleSpace" id="zK4-qM-qy1"/>
+                                    <barButtonItem style="plain" id="t7U-PN-cNE">
+                                        <slider key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" id="7Hr-YL-buy">
+                                            <rect key="frame" x="18" y="7" width="284" height="31"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            <connections>
+                                                <action selector="volumeChanged:" destination="BYZ-38-t0r" eventType="valueChanged" id="Apv-yV-L3i"/>
+                                            </connections>
+                                        </slider>
+                                        <connections>
+                                            <action selector="changeVolume:" destination="BYZ-38-t0r" id="zrO-8W-CDa"/>
+                                        </connections>
+                                    </barButtonItem>
+                                    <barButtonItem style="plain" systemItem="flexibleSpace" id="3uw-Ve-ELK"/>
+                                </items>
+                            </toolbar>
+                            <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="chH-cF-AJr">
+                                <rect key="frame" x="0.0" y="480" width="320" height="44"/>
+                                <items>
+                                    <barButtonItem style="plain" systemItem="flexibleSpace" id="k7D-ZF-3XP"/>
+                                    <barButtonItem tag="1" systemItem="rewind" id="NAj-jc-USh">
+                                        <connections>
+                                            <action selector="rewind:" destination="BYZ-38-t0r" id="XVh-Ff-K7v"/>
+                                        </connections>
+                                    </barButtonItem>
+                                    <barButtonItem width="42" style="plain" systemItem="fixedSpace" id="U0D-67-8Vq"/>
+                                    <barButtonItem width="42" style="plain" systemItem="fixedSpace" id="OGt-c0-fCP"/>
+                                    <barButtonItem style="plain" systemItem="fastForward" id="IRZ-sE-bCG">
+                                        <connections>
+                                            <action selector="ffw:" destination="BYZ-38-t0r" id="Kmx-9r-W37"/>
+                                        </connections>
+                                    </barButtonItem>
+                                    <barButtonItem style="plain" systemItem="flexibleSpace" id="vfa-8e-WUr"/>
+                                </items>
+                            </toolbar>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailingMargin" secondItem="YdC-ty-9Jc" secondAttribute="trailing" constant="-20" id="0OX-ne-iH6"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="YdC-ty-9Jc" secondAttribute="bottom" id="5FC-ZZ-gfF"/>
+                            <constraint firstItem="YdC-ty-9Jc" firstAttribute="top" secondItem="chH-cF-AJr" secondAttribute="bottom" id="8F3-sz-uxs"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="YdC-ty-9Jc" secondAttribute="trailing" constant="-20" id="ATE-Pr-RE3"/>
+                            <constraint firstItem="PP8-ei-3Lm" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="29" id="Eil-MT-LIr"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="PP8-ei-3Lm" secondAttribute="trailing" constant="-5" id="PLc-q7-JK3"/>
+                            <constraint firstItem="YdC-ty-9Jc" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="-20" id="R5G-1h-101"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="YdC-ty-9Jc" secondAttribute="bottom" id="RfV-LH-htk"/>
+                            <constraint firstItem="chH-cF-AJr" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="-20" id="V7s-tg-NM4"/>
+                            <constraint firstItem="YdC-ty-9Jc" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="-20" id="ZbN-qU-oa5"/>
+                            <constraint firstItem="YdC-ty-9Jc" firstAttribute="top" secondItem="chH-cF-AJr" secondAttribute="bottom" id="cdX-Qy-rwp"/>
+                            <constraint firstItem="3MB-Id-C8n" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="e45-uI-xzY"/>
+                            <constraint firstItem="3MB-Id-C8n" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="g9y-Jz-oor"/>
+                            <constraint firstItem="YdC-ty-9Jc" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="-20" id="jCr-nR-edp"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="YdC-ty-9Jc" secondAttribute="trailing" constant="-20" id="lVf-gH-4il"/>
+                            <constraint firstItem="YdC-ty-9Jc" firstAttribute="top" secondItem="chH-cF-AJr" secondAttribute="bottom" id="n8W-C1-VPg"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="chH-cF-AJr" secondAttribute="trailing" constant="-20" id="nfe-jQ-teP"/>
+                            <constraint firstItem="chH-cF-AJr" firstAttribute="top" secondItem="3MB-Id-C8n" secondAttribute="bottom" constant="55" id="rNf-o6-N3p"/>
+                            <constraint firstItem="PP8-ei-3Lm" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="-5" id="rRF-Fo-0WS"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="YdC-ty-9Jc" secondAttribute="bottom" id="sBx-qy-JKl"/>
+                            <constraint firstItem="3MB-Id-C8n" firstAttribute="top" secondItem="PP8-ei-3Lm" secondAttribute="bottom" constant="13" id="zsM-aM-MHa"/>
+                        </constraints>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+                    <connections>
+                        <outlet property="srub" destination="3MB-Id-C8n" id="iOm-1h-i4H"/>
+                        <outlet property="toolbar" destination="chH-cF-AJr" id="kZ2-oJ-75H"/>
+                        <outlet property="volume" destination="7Hr-YL-buy" id="4AN-Ri-yJF"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="565" y="488"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="beethoven_pic.jpg" width="1200" height="1443"/>
+    </resources>
+</document>
