@@ -1,0 +1,315 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		ED61C85B1CF9306300BAD66E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED61C85A1CF9306300BAD66E /* AppDelegate.swift */; };
+		ED61C85E1CF9306300BAD66E /* Google_Blog.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = ED61C85C1CF9306300BAD66E /* Google_Blog.xcdatamodeld */; };
+		ED61C8601CF9306300BAD66E /* MasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED61C85F1CF9306300BAD66E /* MasterViewController.swift */; };
+		ED61C8621CF9306300BAD66E /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED61C8611CF9306300BAD66E /* DetailViewController.swift */; };
+		ED61C8651CF9306300BAD66E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED61C8631CF9306300BAD66E /* Main.storyboard */; };
+		ED61C8671CF9306300BAD66E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ED61C8661CF9306300BAD66E /* Assets.xcassets */; };
+		ED61C86A1CF9306300BAD66E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED61C8681CF9306300BAD66E /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		ED61C8571CF9306300BAD66E /* Google Blog.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Google Blog.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED61C85A1CF9306300BAD66E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		ED61C85D1CF9306300BAD66E /* Google_Blog.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Google_Blog.xcdatamodel; sourceTree = "<group>"; };
+		ED61C85F1CF9306300BAD66E /* MasterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterViewController.swift; sourceTree = "<group>"; };
+		ED61C8611CF9306300BAD66E /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		ED61C8641CF9306300BAD66E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		ED61C8661CF9306300BAD66E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		ED61C8691CF9306300BAD66E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		ED61C86B1CF9306300BAD66E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ED61C8541CF9306300BAD66E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ED61C84E1CF9306300BAD66E = {
+			isa = PBXGroup;
+			children = (
+				ED61C8591CF9306300BAD66E /* Google Blog */,
+				ED61C8581CF9306300BAD66E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ED61C8581CF9306300BAD66E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ED61C8571CF9306300BAD66E /* Google Blog.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ED61C8591CF9306300BAD66E /* Google Blog */ = {
+			isa = PBXGroup;
+			children = (
+				ED61C85A1CF9306300BAD66E /* AppDelegate.swift */,
+				ED61C85F1CF9306300BAD66E /* MasterViewController.swift */,
+				ED61C8611CF9306300BAD66E /* DetailViewController.swift */,
+				ED61C8631CF9306300BAD66E /* Main.storyboard */,
+				ED61C8661CF9306300BAD66E /* Assets.xcassets */,
+				ED61C8681CF9306300BAD66E /* LaunchScreen.storyboard */,
+				ED61C86B1CF9306300BAD66E /* Info.plist */,
+				ED61C85C1CF9306300BAD66E /* Google_Blog.xcdatamodeld */,
+			);
+			path = "Google Blog";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ED61C8561CF9306300BAD66E /* Google Blog */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ED61C86E1CF9306300BAD66E /* Build configuration list for PBXNativeTarget "Google Blog" */;
+			buildPhases = (
+				ED61C8531CF9306300BAD66E /* Sources */,
+				ED61C8541CF9306300BAD66E /* Frameworks */,
+				ED61C8551CF9306300BAD66E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Google Blog";
+			productName = "Google Blog";
+			productReference = ED61C8571CF9306300BAD66E /* Google Blog.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ED61C84F1CF9306300BAD66E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Shangway Hsu";
+				TargetAttributes = {
+					ED61C8561CF9306300BAD66E = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = V7UM3Y9TCA;
+					};
+				};
+			};
+			buildConfigurationList = ED61C8521CF9306300BAD66E /* Build configuration list for PBXProject "Google Blog" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ED61C84E1CF9306300BAD66E;
+			productRefGroup = ED61C8581CF9306300BAD66E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ED61C8561CF9306300BAD66E /* Google Blog */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ED61C8551CF9306300BAD66E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED61C86A1CF9306300BAD66E /* LaunchScreen.storyboard in Resources */,
+				ED61C8671CF9306300BAD66E /* Assets.xcassets in Resources */,
+				ED61C8651CF9306300BAD66E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ED61C8531CF9306300BAD66E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED61C85E1CF9306300BAD66E /* Google_Blog.xcdatamodeld in Sources */,
+				ED61C85B1CF9306300BAD66E /* AppDelegate.swift in Sources */,
+				ED61C8601CF9306300BAD66E /* MasterViewController.swift in Sources */,
+				ED61C8621CF9306300BAD66E /* DetailViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		ED61C8631CF9306300BAD66E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ED61C8641CF9306300BAD66E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		ED61C8681CF9306300BAD66E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ED61C8691CF9306300BAD66E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		ED61C86C1CF9306300BAD66E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		ED61C86D1CF9306300BAD66E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ED61C86F1CF9306300BAD66E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Google Blog/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Shangway.Google-Blog";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		ED61C8701CF9306300BAD66E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Google Blog/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Shangway.Google-Blog";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ED61C8521CF9306300BAD66E /* Build configuration list for PBXProject "Google Blog" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED61C86C1CF9306300BAD66E /* Debug */,
+				ED61C86D1CF9306300BAD66E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ED61C86E1CF9306300BAD66E /* Build configuration list for PBXNativeTarget "Google Blog" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED61C86F1CF9306300BAD66E /* Debug */,
+				ED61C8701CF9306300BAD66E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		ED61C85C1CF9306300BAD66E /* Google_Blog.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				ED61C85D1CF9306300BAD66E /* Google_Blog.xcdatamodel */,
+			);
+			currentVersion = ED61C85D1CF9306300BAD66E /* Google_Blog.xcdatamodel */;
+			path = Google_Blog.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = ED61C84F1CF9306300BAD66E /* Project object */;
+}
