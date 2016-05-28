@@ -32,3 +32,5 @@
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**[May 24, 2016]** [Music Player ](https://github.com/ShangwayHsu/iOS/tree/master/Music%20Player)
 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**[May 27, 2016]** [Google Blog ](https://github.com/ShangwayHsu/iOS/tree/master/Google%20Blog)
+
