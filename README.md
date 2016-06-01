@@ -37,5 +37,5 @@
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**[May 27, 2016]** [Google Blog ](https://github.com/ShangwayHsu/iOS/tree/master/Google%20Blog)
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**[IN-PROGRESS]** [Instagram Copy ](https://github.com/ShangwayHsu/iOS/tree/master/Instagram)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**[IN-PROGRESS]** [Instagram Copy * ](https://github.com/ShangwayHsu/iOS/tree/master/Instagram)
 
