@@ -21,9 +21,9 @@
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**[Apr 28, 2016]** [Timer ](https://github.com/ShangwayHsu/iOS/tree/master/Timer)
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**[May  3, 2016]** [Times Table ](https://github.com/ShangwayHsu/iOS/tree/master/Times%20Table)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**[May &nbsp;3, 2016]** [Times Table ](https://github.com/ShangwayHsu/iOS/tree/master/Times%20Table)
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**[May  7, 2016]** [Tabbed To-do List ](https://github.com/ShangwayHsu/iOS/tree/master/Tabbed%20To-do%20List)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**[May &nbsp;7, 2016]** [Tabbed To-do List ](https://github.com/ShangwayHsu/iOS/tree/master/Tabbed%20To-do%20List)
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**[May 10, 2016]** [Weather Forecast * ](https://github.com/ShangwayHsu/iOS/tree/master/Weather%20Forecast)
 
