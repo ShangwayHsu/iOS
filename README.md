@@ -10,6 +10,7 @@
 ###### *Checkout the apps with * asteriks!*
 ###### *(more details in each apps's README)*
 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**[Date Finished]**
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**[Nov 18, 2015]** [Hello World ](https://github.com/ShangwayHsu/iOS/tree/master/Hello%20World)
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**[Dec 20, 2015]** [To-do List 1 * ](https://github.com/ShangwayHsu/iOS/tree/master/To-do%20list)
@@ -33,4 +34,6 @@
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**[May 24, 2016]** [Music Player ](https://github.com/ShangwayHsu/iOS/tree/master/Music%20Player)
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**[May 27, 2016]** [Google Blog ](https://github.com/ShangwayHsu/iOS/tree/master/Google%20Blog)
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**[IN-PROGRESS]** [Instagram Copy ](https://github.com/ShangwayHsu/iOS/tree/master/Instagram)
 
