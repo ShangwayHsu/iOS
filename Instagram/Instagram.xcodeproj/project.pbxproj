@@ -19,6 +19,8 @@
 		ED5291841CFE954300DD894B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED5291831CFE954300DD894B /* LaunchScreen.storyboard */; };
 		ED5291861CFE955E00DD894B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED5291851CFE955E00DD894B /* Main.storyboard */; };
 		EDE9CE3B1D1F24050081BACB /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDE9CE3A1D1F24050081BACB /* TableViewController.swift */; };
+		EDE9CE3D1D2CBB000081BACB /* placeholder-image.png in Resources */ = {isa = PBXBuildFile; fileRef = EDE9CE3C1D2CBB000081BACB /* placeholder-image.png */; };
+		EDE9CE411D2CBE2D0081BACB /* PostImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDE9CE401D2CBE2D0081BACB /* PostImageViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +40,8 @@
 		ED5291831CFE954300DD894B /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 		ED5291851CFE955E00DD894B /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		EDE9CE3A1D1F24050081BACB /* TableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		EDE9CE3C1D2CBB000081BACB /* placeholder-image.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "placeholder-image.png"; sourceTree = "<group>"; };
+		EDE9CE401D2CBE2D0081BACB /* PostImageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PostImageViewController.swift; path = ../PostImageViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,7 +92,9 @@
 			isa = PBXGroup;
 			children = (
 				81BA814A1A49DA1800E65899 /* AppDelegate.swift */,
+				EDE9CE401D2CBE2D0081BACB /* PostImageViewController.swift */,
 				81BA814C1A49DA1800E65899 /* ViewController.swift */,
+				EDE9CE3C1D2CBB000081BACB /* placeholder-image.png */,
 				EDE9CE3A1D1F24050081BACB /* TableViewController.swift */,
 				ED5291831CFE954300DD894B /* LaunchScreen.storyboard */,
 				ED5291851CFE955E00DD894B /* Main.storyboard */,
@@ -181,6 +187,7 @@
 				ED5291841CFE954300DD894B /* LaunchScreen.storyboard in Resources */,
 				814C3ACB1B69877600E307BB /* Images.xcassets in Resources */,
 				ED5291861CFE955E00DD894B /* Main.storyboard in Resources */,
+				EDE9CE3D1D2CBB000081BACB /* placeholder-image.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -191,6 +198,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EDE9CE411D2CBE2D0081BACB /* PostImageViewController.swift in Sources */,
 				81BA814D1A49DA1800E65899 /* ViewController.swift in Sources */,
 				EDE9CE3B1D1F24050081BACB /* TableViewController.swift in Sources */,
 				81BA814B1A49DA1800E65899 /* AppDelegate.swift in Sources */,

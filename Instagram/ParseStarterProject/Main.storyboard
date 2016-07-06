@@ -157,11 +157,86 @@
                             <outlet property="delegate" destination="V9d-8U-03d" id="NaI-8D-nAY"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" title="Root View Controller" id="Q5D-Cf-b0t"/>
+                    <navigationItem key="navigationItem" title="Root View Controller" id="Q5D-Cf-b0t">
+                        <barButtonItem key="rightBarButtonItem" title="Post" id="IZN-Jv-0FS">
+                            <connections>
+                                <segue destination="Keu-92-lJq" kind="show" id="ije-jj-7Qe"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="wAS-XW-JYr" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="491" y="611"/>
+            <point key="canvasLocation" x="279" y="611"/>
+        </scene>
+        <!--Post Image-->
+        <scene sceneID="PwT-4i-hsn">
+            <objects>
+                <viewController title="Post Image" id="Keu-92-lJq" customClass="PostImageViewController" customModule="Instagram" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="kvH-0l-ukg"/>
+                        <viewControllerLayoutGuide type="bottom" id="aYG-Qn-cIe"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Iiw-8m-Jub">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="V2s-E8-CFY">
+                                <rect key="frame" x="100" y="349" width="121" height="30"/>
+                                <state key="normal" title="Choose An Image"/>
+                                <connections>
+                                    <action selector="chooseImage:" destination="Keu-92-lJq" eventType="touchUpInside" id="qyB-cj-a5e"/>
+                                </connections>
+                            </button>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="e8h-id-z5j">
+                                <rect key="frame" x="16" y="387" width="288" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <imageView userInteractionEnabled="NO" contentMode="redraw" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="placeholder-image.png" translatesAutoresizingMaskIntoConstraints="NO" id="qje-TF-zBy">
+                                <rect key="frame" x="36" y="84" width="248" height="248"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="248" id="XYq-ZD-Bda"/>
+                                    <constraint firstAttribute="width" constant="248" id="kM2-33-Tyo"/>
+                                </constraints>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qiO-dZ-ujB">
+                                <rect key="frame" x="120" y="445" width="81" height="30"/>
+                                <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="81" id="vLE-TY-q2f"/>
+                                </constraints>
+                                <state key="normal" title="Post">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="post:" destination="Keu-92-lJq" eventType="touchUpInside" id="jGr-RV-maF"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="e8h-id-z5j" firstAttribute="centerX" secondItem="Iiw-8m-Jub" secondAttribute="centerX" id="Dfb-yR-psp"/>
+                            <constraint firstItem="qiO-dZ-ujB" firstAttribute="top" secondItem="e8h-id-z5j" secondAttribute="bottom" constant="28" id="Inp-Ut-UGY"/>
+                            <constraint firstItem="qiO-dZ-ujB" firstAttribute="centerX" secondItem="Iiw-8m-Jub" secondAttribute="centerX" id="RiD-JL-8rm"/>
+                            <constraint firstItem="qje-TF-zBy" firstAttribute="centerX" secondItem="Iiw-8m-Jub" secondAttribute="centerX" id="YUf-If-qAf"/>
+                            <constraint firstItem="V2s-E8-CFY" firstAttribute="top" secondItem="qje-TF-zBy" secondAttribute="bottom" constant="15" id="are-Cz-Nqp"/>
+                            <constraint firstItem="e8h-id-z5j" firstAttribute="top" secondItem="V2s-E8-CFY" secondAttribute="bottom" constant="8" id="bFf-gy-R0c"/>
+                            <constraint firstItem="qje-TF-zBy" firstAttribute="top" secondItem="kvH-0l-ukg" secondAttribute="bottom" constant="20" id="dzd-Kz-EA9"/>
+                            <constraint firstItem="V2s-E8-CFY" firstAttribute="centerX" secondItem="Iiw-8m-Jub" secondAttribute="centerX" id="heZ-Vf-UH9"/>
+                            <constraint firstItem="e8h-id-z5j" firstAttribute="trailing" secondItem="Iiw-8m-Jub" secondAttribute="trailingMargin" id="q37-QZ-AcN"/>
+                            <constraint firstItem="e8h-id-z5j" firstAttribute="leading" secondItem="Iiw-8m-Jub" secondAttribute="leadingMargin" id="wou-f5-ZB9"/>
+                        </constraints>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+                    <connections>
+                        <outlet property="caption" destination="e8h-id-z5j" id="ged-qr-0hm"/>
+                        <outlet property="imageToPost" destination="qje-TF-zBy" id="Pg1-tf-aeT"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="PxD-8o-P0W" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="669" y="611"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="hbd-W4-2aC">
@@ -177,7 +252,10 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="vii-mw-M6G" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="27" y="611"/>
+            <point key="canvasLocation" x="-147" y="611"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="placeholder-image.png" width="1200" height="840"/>
+    </resources>
 </document>
