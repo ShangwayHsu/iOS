@@ -18,6 +18,8 @@
 		81BA817F1A49E0F000E65899 /* libstdc++.6.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 81BA817E1A49E0F000E65899 /* libstdc++.6.dylib */; };
 		ED5291841CFE954300DD894B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED5291831CFE954300DD894B /* LaunchScreen.storyboard */; };
 		ED5291861CFE955E00DD894B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED5291851CFE955E00DD894B /* Main.storyboard */; };
+		ED896F211D6F9D9A00C3474B /* FeedTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED896F201D6F9D9A00C3474B /* FeedTableCell.swift */; };
+		ED896F231D6F9E9400C3474B /* FeedTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED896F221D6F9E9400C3474B /* FeedTableViewController.swift */; };
 		EDE9CE3B1D1F24050081BACB /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDE9CE3A1D1F24050081BACB /* TableViewController.swift */; };
 		EDE9CE3D1D2CBB000081BACB /* placeholder-image.png in Resources */ = {isa = PBXBuildFile; fileRef = EDE9CE3C1D2CBB000081BACB /* placeholder-image.png */; };
 		EDE9CE411D2CBE2D0081BACB /* PostImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDE9CE401D2CBE2D0081BACB /* PostImageViewController.swift */; };
@@ -39,6 +41,8 @@
 		81BA81801A49E10C00E65899 /* ParseUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ParseUI.framework; sourceTree = "<group>"; };
 		ED5291831CFE954300DD894B /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 		ED5291851CFE955E00DD894B /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		ED896F201D6F9D9A00C3474B /* FeedTableCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeedTableCell.swift; sourceTree = "<group>"; };
+		ED896F221D6F9E9400C3474B /* FeedTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeedTableViewController.swift; sourceTree = "<group>"; };
 		EDE9CE3A1D1F24050081BACB /* TableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
 		EDE9CE3C1D2CBB000081BACB /* placeholder-image.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "placeholder-image.png"; sourceTree = "<group>"; };
 		EDE9CE401D2CBE2D0081BACB /* PostImageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PostImageViewController.swift; path = ../PostImageViewController.swift; sourceTree = "<group>"; };
@@ -98,6 +102,8 @@
 				EDE9CE3A1D1F24050081BACB /* TableViewController.swift */,
 				ED5291831CFE954300DD894B /* LaunchScreen.storyboard */,
 				ED5291851CFE955E00DD894B /* Main.storyboard */,
+				ED896F221D6F9E9400C3474B /* FeedTableViewController.swift */,
+				ED896F201D6F9D9A00C3474B /* FeedTableCell.swift */,
 			);
 			name = InstagramProject;
 			path = ParseStarterProject;
@@ -199,6 +205,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				EDE9CE411D2CBE2D0081BACB /* PostImageViewController.swift in Sources */,
+				ED896F231D6F9E9400C3474B /* FeedTableViewController.swift in Sources */,
+				ED896F211D6F9D9A00C3474B /* FeedTableCell.swift in Sources */,
 				81BA814D1A49DA1800E65899 /* ViewController.swift in Sources */,
 				EDE9CE3B1D1F24050081BACB /* TableViewController.swift in Sources */,
 				81BA814B1A49DA1800E65899 /* AppDelegate.swift in Sources */,

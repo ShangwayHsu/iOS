@@ -149,7 +149,7 @@ class ViewController: UIViewController {
     }
     
     override func viewDidAppear(animated: Bool) {
-        if PFUser.currentUser() != nil {
+        if PFUser.currentUser()!.username != nil {
             self.performSegueWithIdentifier("login", sender: self)
         }
     }

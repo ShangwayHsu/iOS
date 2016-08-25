@@ -8,6 +8,7 @@
 
 import UIKit
 import Parse
+
 class TableViewController: UITableViewController {
     var usernames = [""]
     var userids = [""]
@@ -15,6 +16,12 @@ class TableViewController: UITableViewController {
     
     var refresher: UIRefreshControl!
     
+    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
+        if segue.identifier == "logout" {
+            PFUser.logOut()
+        }
+        
+    }
     func refresh() {
         
         let query = PFUser.query()
